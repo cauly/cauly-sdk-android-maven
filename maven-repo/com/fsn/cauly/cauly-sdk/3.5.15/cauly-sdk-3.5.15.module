@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fsn.cauly",
+    "module": "cauly-sdk",
+    "version": "3.5.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "szfw3qi5hnaaljvill2s7w2z4e"
+    }
+  },
+  "variants": [
+    {
+      "name": "normalReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.15.aar",
+          "url": "cauly-sdk-3.5.15.aar",
+          "size": 475454,
+          "sha512": "9fe7410ad17dcea7db8e9fa3a152e9684d229668033c6b6b28071dab97e39002be85bea6453523cbb356a3da2fca896db5bf81e6fd4fe9a7928fbef8fe2395c4",
+          "sha256": "2a2f72bf0ad3cf27031c89540f50aeaa1b162266c978f2caf510459fb40fac62",
+          "sha1": "e226ad177bc2feea5c823c2748a8570a1e00e4e9",
+          "md5": "eb5c871c52fabb295b9674474216324e"
+        }
+      ]
+    },
+    {
+      "name": "normalReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "17.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.15.aar",
+          "url": "cauly-sdk-3.5.15.aar",
+          "size": 475454,
+          "sha512": "9fe7410ad17dcea7db8e9fa3a152e9684d229668033c6b6b28071dab97e39002be85bea6453523cbb356a3da2fca896db5bf81e6fd4fe9a7928fbef8fe2395c4",
+          "sha256": "2a2f72bf0ad3cf27031c89540f50aeaa1b162266c978f2caf510459fb40fac62",
+          "sha1": "e226ad177bc2feea5c823c2748a8570a1e00e4e9",
+          "md5": "eb5c871c52fabb295b9674474216324e"
+        }
+      ]
+    }
+  ]
+}
