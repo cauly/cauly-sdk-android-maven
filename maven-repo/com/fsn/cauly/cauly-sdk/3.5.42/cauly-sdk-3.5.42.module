@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fsn.cauly",
+    "module": "cauly-sdk",
+    "version": "3.5.42",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.42.aar",
+          "url": "cauly-sdk-3.5.42.aar",
+          "size": 776592,
+          "sha512": "abbd818bcb4346304f4949dbbe75fd0a10481a7a0762da0c6eab864609ea3e48a230a25497b71fefdc3355eca2cb54503db68191afa9c8b0dfa2935669816401",
+          "sha256": "4f519103f1bafc013c2717f90e55976a0ddf22998cead93ee6b90e6be3b063bd",
+          "sha1": "a7af4c16774416b1d4631ba5b6e3d124e587ab02",
+          "md5": "fb9e7145321623915657347812179960"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "17.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-appset",
+          "version": {
+            "requires": "16.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.42.aar",
+          "url": "cauly-sdk-3.5.42.aar",
+          "size": 776592,
+          "sha512": "abbd818bcb4346304f4949dbbe75fd0a10481a7a0762da0c6eab864609ea3e48a230a25497b71fefdc3355eca2cb54503db68191afa9c8b0dfa2935669816401",
+          "sha256": "4f519103f1bafc013c2717f90e55976a0ddf22998cead93ee6b90e6be3b063bd",
+          "sha1": "a7af4c16774416b1d4631ba5b6e3d124e587ab02",
+          "md5": "fb9e7145321623915657347812179960"
+        }
+      ]
+    }
+  ]
+}
