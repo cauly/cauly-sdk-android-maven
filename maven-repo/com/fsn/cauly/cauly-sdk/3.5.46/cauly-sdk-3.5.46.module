@@ -26,11 +26,11 @@
         {
           "name": "cauly-sdk-3.5.46.aar",
           "url": "cauly-sdk-3.5.46.aar",
-          "size": 799958,
-          "sha512": "22055352c54091fc05e78fe8f9e1c04c383def880d6386f12b16fa21969f4be4dd81d3d1b8b672f40d83c43538109c4f5ff2e4bb9e50a1ff6e9f89065f2f2b17",
-          "sha256": "d7fc386c0df4b4ed31f93e7c336cc6579219d138da7c84af44ccee1d77fd8328",
-          "sha1": "9a50c0858519a2408f01149f0c995702ff5d3034",
-          "md5": "91dad263458950e0c8bae0bf6d4f28a1"
+          "size": 799700,
+          "sha512": "3d9140d829fb99e2d9cfac9487b074695b91eb618bea32fd28f82cc599755ed82a482982539221ae302df7ccb4fd406c466896270d33cb6c5c383a18a32dc2ae",
+          "sha256": "4699276a239221241cb761c5fb646497f8ef53e14b75ceb192f9c6a8f266e80c",
+          "sha1": "7d2e30c9354f4ab8a603dc1e70615891ddf28cff",
+          "md5": "f44b8206b13722b6d0aa2209970f98a6"
         }
       ]
     },
@@ -97,11 +97,11 @@
         {
           "name": "cauly-sdk-3.5.46.aar",
           "url": "cauly-sdk-3.5.46.aar",
-          "size": 799958,
-          "sha512": "22055352c54091fc05e78fe8f9e1c04c383def880d6386f12b16fa21969f4be4dd81d3d1b8b672f40d83c43538109c4f5ff2e4bb9e50a1ff6e9f89065f2f2b17",
-          "sha256": "d7fc386c0df4b4ed31f93e7c336cc6579219d138da7c84af44ccee1d77fd8328",
-          "sha1": "9a50c0858519a2408f01149f0c995702ff5d3034",
-          "md5": "91dad263458950e0c8bae0bf6d4f28a1"
+          "size": 799700,
+          "sha512": "3d9140d829fb99e2d9cfac9487b074695b91eb618bea32fd28f82cc599755ed82a482982539221ae302df7ccb4fd406c466896270d33cb6c5c383a18a32dc2ae",
+          "sha256": "4699276a239221241cb761c5fb646497f8ef53e14b75ceb192f9c6a8f266e80c",
+          "sha1": "7d2e30c9354f4ab8a603dc1e70615891ddf28cff",
+          "md5": "f44b8206b13722b6d0aa2209970f98a6"
         }
       ]
     }
